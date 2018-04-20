@@ -1,0 +1,19 @@
+{
+  "name": "cv-for-parkside",
+  "version": "1.0.0",
+  "description": "My CV for Junior Front End Developer role at Parkside",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erolaliyev/CV-for-Parkside.git"
+  },
+  "author": "Erol Aliyev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erolaliyev/CV-for-Parkside/issues"
+  },
+  "homepage": "https://github.com/erolaliyev/CV-for-Parkside#readme"
+}
