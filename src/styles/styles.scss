@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1.6rem;
+  border: 1px solid red;
+}
+
+.about {
+  width: 100%;
+  height: 25rem;
+  border: 1px solid black;
+  background-color: aqua;
+  margin: auto;
+}
+
+.about__info {
+  width: 100%;
+  border: 1px solid springgreen;
+}
