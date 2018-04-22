@@ -6,19 +6,19 @@
   position: relative;
 }
 
-.aboutSectionContainer__video--overlay {
-  background-color: black;
-  box-sizing: border-box;
+.aboutSectionContainer__video {
   height: 100%;
-  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.aboutSectionContainer__video {
+.aboutSectionContainer__video--overlay {
+  background-color: black;
+  box-sizing: border-box;
   height: 100%;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
