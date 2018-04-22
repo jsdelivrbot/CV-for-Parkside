@@ -1,0 +1,35 @@
+.skillsSectionContainer {
+  letter-spacing: .2rem;  
+  margin: 10rem auto 8rem auto;
+  text-align: center;
+  width: 80%;
+}
+
+.skillsSectionContainer__header--hidden {
+  visibility: hidden;
+}
+
+.skillsSectionContainer__header {
+  font-size: 5.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.skillsSectionContainer__text {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin: 5rem;
+}
+
+.skillsSectionContainer__skillRow {
+  padding: 2rem 0;
+}
+
+.skillsSectionContainer__skillRow--icon {
+  margin: 0 4rem;
+  max-width: 8rem;
+}
+
+.skillsSectionContainer__skillRow--icon path {
+  fill: #141414;
+}
