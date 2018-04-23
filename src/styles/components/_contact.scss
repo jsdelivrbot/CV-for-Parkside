@@ -1,0 +1,49 @@
+.contactSectionContainer {
+  font-weight: bold;  
+  text-align: center;
+}
+
+.contactSectionContainer__header {
+  font-size: 2.2rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.containerSectionContainer__headerUnderline {
+  background-color: #000;
+  height: .1rem;
+  margin: 0 auto 5rem auto;
+  width: 8rem;
+}
+
+.contactSectionContainer__link {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem 0;  
+  width: 60%;
+  text-decoration: none;
+}
+
+.contactSectionContainer__link--name {
+  color: #000;
+  font-size: 2.2rem;  
+  letter-spacing: .2rem;
+  text-transform: uppercase;  
+}
+
+.contactSectionContainer__link--learnMore {
+  color: #5900f9;  
+  margin: auto 0;
+  letter-spacing: .1rem;
+  text-decoration: none;  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#secondLink {
+  border-top: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+}
