@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HireMe = () => (
+const HireMe = (props) => (
   <div className="hireMeSection" >
     <p className="hireMeSection__header" >Hire Me</p>
     <p className="hireMeSection__info" >
