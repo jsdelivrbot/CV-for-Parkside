@@ -1,0 +1,35 @@
+.workSectionContainer__arrow-left {
+  background-color: transparent;
+  border-left: .3rem solid #fff; 
+  border-bottom: .3rem solid #fff; 
+  opacity: 0.5;
+  position: absolute;
+  top: 65%;
+  left: 5rem;
+  height: 2rem;
+  width: 2rem;  
+  transform: rotate(45deg);
+  z-index: 2;  
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.workSectionContainer__arrow-right {
+  background-color: transparent;
+  border-top: .3rem solid #fff;
+  border-right: .3rem solid #fff;
+  opacity: 0.5;
+  position: absolute;
+  top: 65%;
+  right: 5rem;
+  height: 2rem;
+  width: 2rem;
+  transform: rotate(45deg);
+  z-index: 2;  
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}

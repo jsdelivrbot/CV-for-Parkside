@@ -1,6 +1,10 @@
 @import './base/_base';
 @import './components/_about';
+@import './components/_arrow';
+@import './components/_imageSlide';
 @import './components/_navbar';
+@import './components/_skills';
+@import './components/_work';
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -8,8 +12,11 @@ body {
   height: 100rem;
   // background-color: springgreen;
   box-sizing: border-box;
+  // text-align: center;
 }
 
 // #root {
-//   width: 100%;
+  // width: 100%;
+  // text-align: center;
+  // box-sizing: border-box;
 // }
