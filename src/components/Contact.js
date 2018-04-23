@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Contact = (props) => (
-  <div className="contactSectionContainer" >
+  <div id="contact" className="contactSectionContainer" >
+    {
+      // To prevent navbar hide 'Contact' text
+    }
+    <p className="contactSectionContainer__header--hidden" >Contact</p>
     <p className="contactSectionContainer__header" >Contact</p>
     <div className="containerSectionContainer__headerUnderline" ></div>
     <a href="https://github.com/erolaliyev" target="_blank" className="contactSectionContainer__link" >

@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Work from './Work';
 
 // To do
+// Current section highlighted in navbar
 // Indicators in Work section
 // Modernizr
 
