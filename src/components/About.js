@@ -8,7 +8,10 @@ const About = (props) => (
     <div className="aboutSectionContainer__video--overlay" ></div>
     <div className="aboutSectionContainer__about">
       <h2 className="aboutSectionContainer__about__header">Erol Aliyev</h2>
-      <p className="aboutSectionContainer__about__text">an enthusiastic frontend developer. I would love an opportunity to work with this dream team at Parkside.</p>
+      <p className="aboutSectionContainer__about__text">
+        an enthusiastic frontend developer. I would love an opportunity to work 
+        with this dream team at Parkside.
+      </p>
     </div>
   </div>
 );
