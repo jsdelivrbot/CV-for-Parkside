@@ -11,26 +11,6 @@ const ImageSlide = (props) => (
         <a href={props.sourceCode} target="_blank" >Source Code</a>
         <a href={props.livePreview} target="_blank" >Live Preview</a>
       </div>
-      <ul className="workSectionContainer__about__indicatorList" >
-        <li
-          className="workSectionContainer__about__indicatorListItem active"
-          onClick={() => { props.clickIndicator(0) }}
-          onClick={props.activateIndicator}
-        >
-        </li>
-        <li
-          className="workSectionContainer__about__indicatorListItem"
-          onClick={() => { props.clickIndicator(1) }}
-          onClick={props.activateIndicator}
-        >
-        </li>
-        <li
-          className="workSectionContainer__about__indicatorListItem"
-          onClick={() => { props.clickIndicator(2) }}
-          onClick={props.activateIndicator}
-        >
-        </li>
-      </ul>
     </div>
 
   </div>

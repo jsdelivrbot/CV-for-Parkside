@@ -32,12 +32,9 @@ export default class Work extends React.Component {
     super(props);
     this.nextSlide = this.nextSlide.bind(this);
     this.previousSlide = this.previousSlide.bind(this);
-    this.handleIndicator = this.handleIndicator.bind(this);
-    this.handleIndicatorActivation = this.handleIndicatorActivation.bind(this);
 
     this.state = {
-      currentIndex: 0,
-      indiCatorListItemClassName: `workSectionContainer__about__indicatorListItem`
+      currentIndex: 0
     };
   }
 
@@ -62,20 +59,6 @@ export default class Work extends React.Component {
     });
   }
 
-  handleIndicator(i) {
-    this.setState({
-      currentIndex: i,
-    });
-  }
-
-  handleIndicatorActivation(e) {
-    if (e.target.className === `workSectionContainer__about__indicatorListItem`) {
-      e.target.className = `workSectionContainer__about__indicatorListItem active`
-    } else {
-      return;
-    }
-  }
-
   render() {
     return (
       <div id="work" className="workSectionContainer" >
@@ -86,8 +69,6 @@ export default class Work extends React.Component {
           text={projectTexts[this.state.currentIndex]}
           sourceCode={projectSourceCodes[this.state.currentIndex]}
           livePreview={projectLivePreviews[this.state.currentIndex]}
-          clickIndicator={this.handleIndicator}
-          activateIndicator={this.handleIndicatorActivation}
         />
         <Arrow direction="right" clickArrow={this.nextSlide} />
       </div>
