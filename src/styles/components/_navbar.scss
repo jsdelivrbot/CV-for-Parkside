@@ -1,4 +1,4 @@
-.navbar {
+.navbarSectionContainer {
   box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
@@ -12,23 +12,23 @@
   }
 }
 
-.navbar--scroll {
+.navbarSectionContainer--scroll {
   align-items: center;
   background-color: #fff;
   height: 4rem;
   & a {
     color: #000;
   }
-  .navbar__title {
+  .navbarSectionContainer__title {
     font-size: 2rem;
 
   }
-  .navbar__listItem:hover {
+  .navbarSectionContainer__listItem:hover {
     color: #5900f9;
   }
 }
 
-.navbar__title {
+.navbarSectionContainer__title {
   display: inline-block;
   color: #fff;
   cursor: pointer;
@@ -37,7 +37,7 @@
   margin: 2rem 0;
 }
 
-.navbar__list {
+.navbarSectionContainer__list {
   align-items: center;
   display: flex;
   flex-flow: row nowrap;
@@ -50,7 +50,7 @@
   text-transform: uppercase;
 }
 
-.navbar__listItem {
+.navbarSectionContainer__listItem {
   color: #fff;
   cursor: pointer;
   display: inline-block;

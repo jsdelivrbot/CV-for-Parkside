@@ -4,13 +4,13 @@ export default class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      className: `navbar`
+      className: `navbarSectionContainer`
     }
   }
   makeNavbarBackgroundWhite() {
     let className = this.state.className;
-    if (className = `navbar`) {
-      className += ` navbar--scroll`;
+    if (className = `navbarSectionContainer`) {
+      className += ` navbarSectionContainer--scroll`;
     } else {
       return;
     }
@@ -18,7 +18,7 @@ export default class Navbar extends React.Component {
   }
   makeNavbarBackgroundTransparent() {
     let className = this.state.className;
-    className = `navbar`;
+    className = `navbarSectionContainer`;
     this.setState({ className });
   }
   render() {
@@ -31,19 +31,19 @@ export default class Navbar extends React.Component {
     }
     return (
       <div className={this.state.className} >
-        <a href="#top" className="navbar__title">CV for Parkside</a>
-        <ul className="navbar__list">
+        <a href="#top" className="navbarSectionContainer__title">CV for Parkside</a>
+        <ul className="navbarSectionContainer__list">
           <li>
-            <a href="#top" className="navbar__listItem">About</a>
+            <a href="#top" className="navbarSectionContainer__listItem">About</a>
           </li>
           <li>
-            <a href="#skills" className="navbar__listItem">Skills</a>
+            <a href="#skills" className="navbarSectionContainer__listItem">Skills</a>
           </li>
           <li>
-            <a href="#work" className="navbar__listItem">Work</a>
+            <a href="#work" className="navbarSectionContainer__listItem">Work</a>
           </li>
           <li>
-            <a href="#contact" className="navbar__listItem">Contact</a>
+            <a href="#contact" className="navbarSectionContainer__listItem">Contact</a>
           </li>
         </ul>
       </div>
