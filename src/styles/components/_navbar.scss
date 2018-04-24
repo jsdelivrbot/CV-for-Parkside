@@ -59,3 +59,13 @@
     color: darken($color: #fff, $amount: 30%)
   }
 }
+
+@media(max-width: 950px) {
+  .navbarSectionContainer {
+    padding: 0 2rem;
+  }
+
+  .navbarSectionContainer__listItem {
+    margin: 1rem 1rem; 
+  }
+}

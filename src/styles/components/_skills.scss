@@ -33,3 +33,9 @@
 .skillsSectionContainer__skillRow--icon path {
   fill: #141414;
 }
+
+@media(max-width: 800px) {
+  .skillsSectionContainer {
+    width: 90%;
+  }
+}
