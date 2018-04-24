@@ -8,8 +8,7 @@ import Skills from './Skills';
 import Work from './Work';
 
 // To do
-// Current section highlighted in navbar - Not gonna do
-// Indicators in Work section - Not gonna do
+// Responsive
 // Test - How?
 // Create settings.scss
 // Production ready (especially webpack) - How?
