@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/erolaliyev/CV-for-Parkside/issues"
   },
-  "homepage": "https://github.com/erolaliyev/CV-for-Parkside#readme",
+  "homepage": "https://erolaliyev.github.io/CV-for-Parkside",
   "dependencies": {
     "autoprefixer": "^8.3.0",
     "babel-core": "^6.26.0",
@@ -25,6 +27,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.8.3",
     "normalize.css": "^8.0.0",
     "postcss": "^6.0.21",
