@@ -33,3 +33,14 @@
     cursor: pointer;
   }
 }
+
+@media(max-width: 720px) {
+  .workSectionContainer__arrow-left {
+    top: 50%;
+    left: 2rem;
+  }
+  .workSectionContainer__arrow-right {
+    top: 50%;
+    right: 2rem;
+  }
+}

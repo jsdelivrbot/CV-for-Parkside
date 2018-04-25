@@ -55,3 +55,16 @@
   border-top: 1px solid #DFDFDF;
   border-bottom: 1px solid #DFDFDF;
 }
+
+@media(max-width: 576px) {
+  .contactSectionContainer__link--learnMore {
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .contactSectionContainer__link {
+    justify-content: center;
+    width: 40%;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div className="footerSectionContainer" >
-    <p>Think Interactive First.</p>
+    <p className="footerSectionContainer__motto" >Think Interactive First.</p>
     <ul className="footerSectionContainer__list" >
       <li>
         <a href="#top" className="footerSectionContainer__listItem" >About</a>

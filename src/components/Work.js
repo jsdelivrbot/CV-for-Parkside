@@ -12,7 +12,7 @@ const projectHeaders = [
   `Wikipedia Viewer`
 ];
 const projectTexts = [
-  `An app shows current weather in user's location and appropriate background image for that weather condition. User can click a button to toggle between Fahrenheit and Celcius.`,
+  `An app shows current weather in user's location and appropriate background image for that weather condition. User can click a button to toggle between Fahrenheit and Celsius.`,
   `An app shows new quote each time user clicks a button. User can also tweet favorite ones.`,
   `An app that user can search for Wikipedia articles. User can also click a button to read a random article.`
 ];
@@ -61,16 +61,22 @@ export default class Work extends React.Component {
 
   render() {
     return (
-      <div id="work" className="workSectionContainer" >
-        <Arrow direction="left" clickArrow={this.previousSlide} />
-        <ImageSlide
-          url={projectImages[this.state.currentIndex]}
-          header={projectHeaders[this.state.currentIndex]}
-          text={projectTexts[this.state.currentIndex]}
-          sourceCode={projectSourceCodes[this.state.currentIndex]}
-          livePreview={projectLivePreviews[this.state.currentIndex]}
-        />
-        <Arrow direction="right" clickArrow={this.nextSlide} />
+      <div>
+        {
+          // Hidden header to prevent navbar overlap work section
+        }
+        <div id="work" className="workSectionHeader--hidden" >Work</div>
+        <div className="workSectionContainer" >
+          <Arrow direction="left" clickArrow={this.previousSlide} />
+          <ImageSlide
+            url={projectImages[this.state.currentIndex]}
+            header={projectHeaders[this.state.currentIndex]}
+            text={projectTexts[this.state.currentIndex]}
+            sourceCode={projectSourceCodes[this.state.currentIndex]}
+            livePreview={projectLivePreviews[this.state.currentIndex]}
+          />
+          <Arrow direction="right" clickArrow={this.nextSlide} />
+        </div>
       </div>
     );
   }

@@ -39,3 +39,43 @@
     width: 90%;
   }
 }
+
+@media(max-width: 720px) {
+  .skillsSectionContainer__skillRow--icon {
+    margin: 0 3rem;
+  }
+}
+
+@media(max-width: 625px) {
+  .skillsSectionContainer__skillRow--icon {
+    margin: 0 2rem;
+  }
+}
+
+@media(max-width: 576px) {
+  .skillsSectionContainer {
+    margin-top: 5rem;
+  }
+
+
+  .skillsSectionContainer__skillRow--icon {
+    max-width: 4rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .skillsSectionContainer__skillRow {
+    padding: 0;
+  }
+
+  .skillsSectionContainer__text {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;    
+    margin: 0;
+  }
+
+  .skillsSectionContainer__skillRow--icon {
+    margin: 2rem;
+    max-width: 8rem;
+  }
+}

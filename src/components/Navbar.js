@@ -21,6 +21,7 @@ export default class Navbar extends React.Component {
     className = `navbarSectionContainer`;
     this.setState({ className });
   }
+
   render() {
     window.onscroll = () => {
       if (document.body.scrollTop >= 50) {

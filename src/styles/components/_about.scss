@@ -50,3 +50,35 @@
     width: 60%;
   }
 }
+
+@media(max-width: 720px) {
+  .aboutSectionContainer__about {
+    margin: 10rem auto;
+  }
+
+  .aboutSectionContainer__about__header {
+    font-size: 3.4rem;
+  }
+
+  .aboutSectionContainer__about__text {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+}
+
+@media(max-width: 576px) {
+  .aboutSectionContainer__about {
+    margin: 6rem auto;
+  }
+
+  .aboutSectionContainer__about__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .aboutSectionContainer__about__text {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    line-height: 1.4rem;
+  }
+}

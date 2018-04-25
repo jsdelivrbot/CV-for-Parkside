@@ -19,3 +19,13 @@
   line-height: 3rem;
   width: 75%;  
 }
+
+@media(max-width: 576px) {
+  .hireMeSectionContainer {
+    margin-top: 8rem;
+  }
+  .hireMeSectionContainer__info {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+}

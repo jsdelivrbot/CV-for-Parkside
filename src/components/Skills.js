@@ -50,7 +50,7 @@ const Skills = (props) => (
       </svg>
     </div>
     <p className="skillsSectionContainer__text" >
-      I enjoy learning the newest development and design methods to build better, more efficient, and faster tools while placing importance on a thorough understanding of these tools. I keep constantly pushing myself outside of my comfort zone in order to be a better developer and a human being.
+      I enjoy learning the newest development and design methods to build better, more efficient, and faster tools while placing importance on a thorough understanding of these technologies. I keep constantly pushing myself outside of my comfort zone in order to be a better developer and a human being.
     </p>
   </div>
 );
