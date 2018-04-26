@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'public'),
-    publicPath: "/CV-for-Parkside"
+    publicPath: "/CV-for-Parkside/"
   },
   module: {
     rules: [
