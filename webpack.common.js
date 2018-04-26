@@ -24,13 +24,11 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png)$/,
+        test: /\.(png|gif|jpe?g)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          // publicPath: './src/images',
-          // outputPath: './src/images'
-          // useRelativePath: true
+          outputPath: './images'
         }
       }
     ]
